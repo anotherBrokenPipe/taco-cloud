@@ -1,4 +1,9 @@
 spring:
+#  security:
+#    oauth2:
+#      client:
+#        registration:
+#          clientId:
   thymeleaf:
     cache: false
   datasource:
