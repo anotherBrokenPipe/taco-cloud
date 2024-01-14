@@ -11,6 +11,14 @@ java {
     sourceCompatibility = '19'
 }
 
+jar {
+    enabled = false
+}
+
+bootJar {
+    archiveFileName = "taco-cloud.jar"
+}
+
 configurations {
     compileOnly {
         extendsFrom annotationProcessor
