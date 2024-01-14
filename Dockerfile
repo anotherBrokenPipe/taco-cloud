@@ -1,4 +1,4 @@
-FROM azul/zulu-openjdk-alpine:17
+FROM eclipse-temurin:19-jdk
 
 ARG APP_HOME=/opt/taco-cloud
 ARG APP_JAR=taco-cloud.jar
